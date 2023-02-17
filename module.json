@@ -1,0 +1,287 @@
+{
+  "title": "Token Action HUD for the Relics of the Void system",
+  "description": "Creates a HUD showing a selected token's common actions.",
+  "scripts": [
+    "lib/tagify/tagify.min.js",
+    "scripts/bundle.min.js"
+  ],
+  "styles": [
+    "styles/tah-compact.css",
+    "styles/token-action-hud-rotv.css",
+    "styles/tah-dorako.css",
+    "styles/lib/tagify/tagify.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "lang/ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/br.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "pl",
+      "name": "Polish",
+      "path": "lang/pl.json",
+      "flags": {}
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json",
+      "flags": {}
+    },
+    {
+      "lang": "cn",
+      "name": "中文",
+      "path": "lang/cn.json",
+      "flags": {}
+    },
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json",
+      "flags": {}
+    },
+    {
+      "lang": "it",
+      "name": "italiano",
+      "path": "lang/it.json",
+      "flags": {}
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Tapkomet/tokenactionhud-rotv",
+  "manifest": "https://raw.githubusercontent.com/Tapkomet/tokenactionhud-rotv/main/module.json",
+  "version": "3.0.19",
+  "download": "https://github.com/Tapkomet/tokenactionhud-rotv/archive/refs/heads/main.zip",
+  "id": "token-action-hud-rotv",
+  "authors": [
+    {
+      "name": "Larkinabout",
+      "url": "https://github.com/Larkinabout",
+      "flags": {}
+    },
+    {
+      "name": "Drental",
+      "flags": {}
+    },
+    {
+      "name": "^ and stick",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "alienrpg",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "blades-in-the-dark",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "cleenmain",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "coc",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "cof",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "cthack",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "demonlord",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd4e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "rotv",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "ds4",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "dungeonworld",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "earthdawn4e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "forbidden-lands",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "gurps",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "kamigakari",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "lancer",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "od6s",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "sfrpg",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "space1889",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "sw5e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "swnr",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "symbaroum",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "tagmar",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "tagmar_rpg",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "flags": {
+      "optional": [
+        {
+          "id": "color-picker",
+          "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+        },
+        {
+          "id": "colorsettings",
+          "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+        }
+      ]
+    }
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  }
+}
