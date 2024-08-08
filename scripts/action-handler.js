@@ -222,7 +222,7 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
                 .map(([abilityId, ability]) => {
                     const id = `${actionType}-${abilityId}`
                     const abbreviatedName = abilityId.charAt(0).toUpperCase() + abilityId.slice(1)
-                    const label = this.systemVersion >= '2.2' ? CONFIG.ROTV.abilities[abilityId].label : CONFIG.ROTV.abilities[abilityId]
+                    const label = CONFIG.ROTV.abilities[abilityId].label
                     const name = this.abbreviateSkills ? abbreviatedName : label
                     // Localise
                     const actionTypeName = `${coreModule.api.Utils.i18n(ACTION_TYPE[actionType])}: ` ?? ''
@@ -246,7 +246,6 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule) => {
             // Create group data
             const groupData = { id: groupId, type: 'system' }
 
-            // Add actions to action list
             this.addActions(actions, groupData)
         }
 
